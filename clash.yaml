@@ -17,7 +17,7 @@ proxy-providers:
   Airport_01:
     <<: *PProviders
     path: ./proxies/机场名称1.yaml
-    url: "https://api.eehk.net/api/v1/client/subscribe?token=1ddca2e9f5c28d79749a02a4b6b01759"
+    url: ""
     override:
       additional-prefix: '机场名称1'
       skip-cert-verify: true
